@@ -3,7 +3,7 @@
     
     - Header
     - Home section
-    - Projects seaction
+    - Projects section
     - Info section
     - App features section
     - Testimonials section
@@ -195,7 +195,7 @@ header .social li:first-child{
 
 /*		Home section 		*/
 
-.hero{
+.home{
 	display: block;
 	position: relative;
 	width: 100%;
@@ -204,7 +204,7 @@ header .social li:first-child{
 	background-size: cover;
 }
 
-.hero .caption{
+.home .caption{
 	position: absolute;
 	max-width: 550px;
 	margin-left: 80px;
@@ -215,7 +215,7 @@ header .social li:first-child{
 	-o-transform:translate(0,-50%);
 }
 
-.hero .caption h1{
+.home .caption h1{
 	color: #525252;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
@@ -223,7 +223,7 @@ header .social li:first-child{
 	word-break: break-word;
 }
 
-.hero .caption p{
+.home .caption p{
 	color: #6d6c6c;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -356,24 +356,24 @@ a.app_link{
 
 
 
-/*		Featured on section 		*/
+/*		Projects section 		*/
 
-.featured_on{
+.projects_on{
 	width: 100%;
 	padding: 25px 0;
 	background: #f3f3f3;
 }
 
-.featured_on ul{
+.projects ul{
 	margin: 0;
 }
 
-.featured_on li{
+.projects li{
 	position: relative;
 	height: 100%;
 }
 
-.featured_on li:first-child{
+.projects li:first-child{
 	margin-left: 0;
 }
 
@@ -844,8 +844,8 @@ footer .copyright a{
 
 
 
-	/*		Hero section 		*/
-	.hero .caption{
+	/*		Home section 		*/
+	.home .caption{
 		margin-left: 0;
 	}
 
@@ -861,12 +861,12 @@ footer .copyright a{
 
 
 
-	/*		Featured on section		*/
-	.featured_on{
+	/*		Projects section		*/
+	.projects{
 		padding: 25px 0 5px 0!important;
 	}
 
-	.featured_on ul li{
+	.projects ul li{
 		margin-bottom: 25px!important;
 	}
 
