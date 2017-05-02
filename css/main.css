@@ -202,7 +202,7 @@ header .social li:first-child{
 .home .caption{
 	position: absolute;
 	max-width: 550px;
-	margin-left: 80px;
+	margin: auto;
 	top: 50%;
 	transform:translate(0,-50%);
 	-webkit-transform:translate(0,-50%);
