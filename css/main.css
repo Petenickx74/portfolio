@@ -213,6 +213,7 @@ header .social li:first-child{
 .home .caption h1{
 	color: #525252;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	text-align: center;
 	font-size: 34px;
 	font-weight: bold;
 	word-break: break-word;
