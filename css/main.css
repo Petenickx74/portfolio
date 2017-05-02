@@ -569,7 +569,7 @@ footer .copyright a{
 
 	/*		Home section 		*/
 	.home .caption{
-		margin-left: 0;
+		margin: auto;
 	}
 
 	.app_store_btn{
@@ -593,7 +593,9 @@ footer .copyright a{
 		margin-bottom: 25px!important;
 	}
 
-
+	.s3 {
+ 		word-wrap: break-word;
+	}
 
 
 
