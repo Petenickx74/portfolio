@@ -167,6 +167,7 @@ h5, h6          { font-weight: bolder }
 
     header ul.social{
         list-style: none;
+        margin-top: 20px;
         margin-bottom: 5px;
     }
 
