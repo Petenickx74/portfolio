@@ -31,11 +31,7 @@
     footer,header,hgroup,menu,nav,section { 
         display:block;
     }
-    video{
-	    max-width: 100%;
-	    position: absolute;
-            object-fit: contain;
-      }  
+     
     }
     nav ul {
         list-style:none;
