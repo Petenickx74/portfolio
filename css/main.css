@@ -465,7 +465,10 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 30px;
 
 }
-
+.plyr {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
 
 
 
