@@ -9,7 +9,7 @@
     table, caption, tbody, tfoot, thead, tr, th, td,
     article, aside, canvas, details, figcaption, figure, 
     footer, header, hgroup, menu, nav, section, summary,
-    time, mark, audio, video {
+    time, mark, audio {
         margin:0;
         padding:0;
         border:0;
@@ -31,7 +31,11 @@
     footer,header,hgroup,menu,nav,section { 
         display:block;
     }
-
+    video{
+	    position: absolute;
+        object-fit: contain;
+      }  
+    }
     nav ul {
         list-style:none;
     }
