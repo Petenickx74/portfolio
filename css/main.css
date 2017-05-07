@@ -161,6 +161,7 @@ h5, h6          { font-weight: bolder }
     }
 
     header .footer{
+        padding-top: 15px;
         position: static;
         bottom: 50px;
     }
