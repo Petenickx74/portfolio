@@ -9,10 +9,6 @@ $(document).ready(function(){
         return false;
     });
 
-    //video scaling
-    var scale = Math.min(availableWidth / contentWidth, availableHeight / contentHeight);
-    
-
     //Contact Page Map Centering
     var hw = $('header').width() + 50;
     var mw = $('#map').width();
