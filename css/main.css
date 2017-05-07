@@ -161,7 +161,7 @@ h5, h6          { font-weight: bolder }
     }
 
     header .footer{
-        position: fixed;
+        position: static;
         bottom: 50px;
     }
 
