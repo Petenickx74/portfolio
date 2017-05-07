@@ -362,7 +362,9 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover;
     background-position: 50% 50%;
 }
-
+.video{
+    width: 100%;
+}
 .work_nav{
     display: block;
     width: 100%;
