@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+
 <?php
 include("portfolio/includes/Home.html");
 include("portfolio/includes/header.html");
@@ -22,3 +28,5 @@ include("portfolio/includes/Games.html");
 }else if($_GET['page'] == "Video"){
 include("portfolio/includes/Video.html");
 ?>
+</body>
+</html>
