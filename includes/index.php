@@ -1,7 +1,8 @@
 <?php
 
+include("portfolio/includes/home.html");
+
 include("portfolio/includes/header.html");
-include("portfolio/includes/navbar.html");
 
 }else if($_GET['page'] == "About"){
 
@@ -42,8 +43,5 @@ include("portfolio/includes/Games.html");
 }else if($_GET['page'] == "Video"){
 
 include("portfolio/includes/Video.html");
-
-include("portfolio/includes/home.html");
-include("portfolio/includes/footer.html");
 
 ?>
