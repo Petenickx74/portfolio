@@ -1,5 +1,5 @@
 <?php
-include("portfolio/includes/home.html");
+include("portfolio/includes/Home.html");
 include("portfolio/includes/header.html");
 }else if($_GET['page'] == "About"){
 include("portfolio/includes/About.html");
