@@ -1,7 +1,7 @@
 jQuery(function($){
 
-	var longitude = 45.124099;
-	var latitude = -123.113634;
+	var longitude = 37.773972;
+	var latitude = -122.431297;
 	var canvas = "map";
 
 	
