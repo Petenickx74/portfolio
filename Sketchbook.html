@@ -12,10 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rock Salt">
     	<style>
-      body {
-        font-family: 'Rock Salt', cursive;
-        font-size: 40px;
-           }
+        	body {font-family: 'Rock Salt', cursive; font-size: 40px;}
         </style>
 	<script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
@@ -79,20 +76,16 @@
 			<div class="content">
 				<!-- /.row -->
 
-        <!-- Projects Row -->
+        <!-- Projects Row 1-->
         <div class="row">
             <div class="column">
                     <img src="https://github.com/Petenickx74/portfolio/blob/gh-pages/img/CoffeeAngel.jpeg?raw=true" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="jpg">
             </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="#">
+            <div class="column">
                     <img class="img-responsive" src="https://github.com/Petenickx74/portfolio/blob/gh-pages/img/Oceanchick2.jpg?raw=true" alt="">
-                </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
                     <img class="img-responsive" src="https://github.com/Petenickx74/portfolio/blob/gh-pages/img/Scan%2064.jpg?raw=true" alt="">
-                </a>
             </div>
             <div class="col-md-3 portfolio-item">
                 <a href="#">
@@ -102,32 +95,24 @@
         </div>
         <!-- /.row -->
 
-        <!-- Projects Row -->
+        <!-- Projects Row 2-->
         <div class="row">
             <div class="col-md-3 portfolio-item">
-                <a href="#">
                     <img class="img-responsive" src="https://github.com/Petenickx74/portfolio/blob/gh-pages/img/Scan%2086.jpg?raw=true" alt="">
-                </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
                     <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
                     <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                </a>
             </div>
             <div class="col-md-3 portfolio-item">
-                <a href="#">
                     <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                </a>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Projects Row -->
+        <!-- Projects Row 3-->
         <div class="row">
             <div class="col-md-3 portfolio-item">
                 <a href="#">
@@ -151,9 +136,39 @@
             </div>
         </div>
         <!-- /.row -->
+	<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+
+		    <div class="mySlides">
+		      <div class="numbertext">1 / 4</div>
+			<img src="https://github.com/Petenickx74/portfolio/blob/gh-pages/img/CoffeeAngel.jpeg?raw=true" style="width:100%">
+		    </div>
+
+		    <div class="mySlides">
+		      <div class="numbertext">2 / 4</div>
+			<img src="https://github.com/Petenickx74/portfolio/blob/gh-pages/img/Oceanchick2.jpg?raw=true" style="width:100%">
+		    </div>
+
+		    <div class="mySlides">
+		      <div class="numbertext">3 / 4</div>
+			<img src="img_mountains_wide.jpg" style="width:100%">
+		    </div>
+
+		    <div class="mySlides">
+		      <div class="numbertext">4 / 4</div>
+			<img src="img_lights_wide.jpg" style="width:100%">
+		    </div>
+
+		    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		    <div class="caption-container">
+		      <p id="caption"></p>
+		    </div>
 				<p>This is where the magic happens. All visual ideas start with a simple sketch. Here's a look into the pages of my sketchbook.</p>
 
-			</div><!-- end content -->
+		</div></div></div><!-- end content -->
 		</section>
 	</section><!-- end main -->
 	
