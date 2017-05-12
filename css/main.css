@@ -635,7 +635,6 @@ margin: 0;
 padding: 0;
 width: 100%;
 height: 100%;
-border: 1px inset #7a8b8b;
 /* put following styles (necessary for overflow and
 scrolling handling) in div container around iframe
 because not stable in CSS
