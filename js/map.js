@@ -42,7 +42,7 @@ jQuery(function($){
 			  }
 			];	
 			var infowindow = new google.maps.InfoWindow({
-				content:"<div class='map_email'><div class='text'><span class='text'>Located in the heart of SF</span></div><div class='map_email'><span class='email'>Email : </span>peternickell@gmail.com</div> <div class='map_tel'><span class='tel'>Phone : </span>(207) 423-4249</div></div>"
+				content:"<div class='map_tel'><div class='text'><span class='text'>Located in the heart of SF</span></div><div class='map_tel'><span class='tel'>Email : </span>peternickell@gmail.com</div> <div class='map_tel'><span class='tel'>Phone : </span>(207) 423-4249</div></div>"
 			});	
 			
 			map.setOptions({styles: styles});
